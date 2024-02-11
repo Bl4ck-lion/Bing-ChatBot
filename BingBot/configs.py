@@ -6,7 +6,7 @@ from decouple import config
 class Var:
     API_ID = config("API_ID", default=6, cast=int)
     API_HASH = config("API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
-    BOT_TOKEN = config("BOT_TOKEN", default=None)
+    BOT_TOKEN = config("BOT_TOKEN", default="5624390876:AAFtmB-sV52rPNg3Ty6O1rPgmqUZDrLHViw")
     OWNER_ID = config("OWNER_ID", default=0, cast=int)
     CH_DB = config("CH_DB_ID", cast=int, default=0)
     CH_MSG_ID = config("CH_MSG_ID", cast=int, default=0)
